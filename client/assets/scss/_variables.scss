@@ -1,0 +1,35 @@
+$image-path: '../images/';
+
+$font-roboto: 'Roboto', sans-serif;
+
+// Color
+// $color-light-purple: #BBABF2;
+// $color-dark-purple: #8248CE;
+// $color-grey: #C9C9C9;
+// $color-cream: #F8F4E3;
+// $color-green-grey: #A2A392;
+
+$color-deep-green: #493B2A;
+$color-light-green: #CFEAB6;
+$color-mid-green: #8A9979;
+
+$color-brown-grey: #898989;
+$color-grey: #C9C9C9;
+$color-light-grey: #EEEEEE;
+$color-charcoal: #444444;
+
+$color-brown: #B7895D;
+$color-blue: #37c;
+
+// Media Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+// Dimensions
+$header-height: 50px;
+$footer-height: 200px;

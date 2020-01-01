@@ -1,0 +1,61 @@
+@import './variables';
+
+html {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: $font-roboto;
+  margin: 0;
+  text-align: left;
+  @media screen and (max-width: map-get($grid-breakpoints, xl)) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: map-get($grid-breakpoints, lg)) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: map-get($grid-breakpoints, md)) {
+    font-size: 13px;
+  }
+  @media screen and (max-width: map-get($grid-breakpoints, sm)) {
+    font-size: 12px;
+  }
+}
+
+/* CLICKABLES */
+[role="button"],
+button,
+input,
+label,
+a,
+select {
+  cursor: pointer;
+  outline: none;
+}
+
+/* color */
+.color-deep-green{ color: $color-deep-green; }
+.color-light-green{ color: $color-light-green; }
+.color-mid-green{ color: $color-mid-green; }
+
+.color-brown-grey{ color: $color-brown-grey; }
+.color-grey{ color: $color-grey; }
+.color-light-grey{ color: $color-light-grey; }
+.color-charcoal{ color: $color-charcoal; }
+
+.color-brown{ color: $color-brown; }
+.color-blue{ color: $color-blue; }
+.color-white{ color: white; }
+
+/* background */
+.background-deep-green{ background: $color-deep-green; }
+.background-light-green{ background: $color-light-green; }
+.background-mid-green{ background: $color-mid-green; }
+
+.background-brown-grey{ background: $color-brown-grey; }
+.background-grey{ background: $color-grey; }
+.background-light-grey{ background: $color-light-grey; }
+.background-charcoal{ background: $color-charcoal; }
+
+.background-brown{ background: $color-brown; }
+.background-blue{ background: $color-blue; }
+
+.background-white{ background: white; }
