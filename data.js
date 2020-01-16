@@ -9,10 +9,12 @@ const modules = [
       {
         sem: "2019:1",  // year:sem
         exam:  "2013-02-08 09:30:26", // use momentJS to parse string
+        required: ["sem"],
         times: [
           {
             id: 1,
             day: 2, // 0 to 6 (Mon - 0 to Sunday - 6)
+            type: "sem", // sem / lec / tut
             instructor: "Yeow Leong",
             instructor_url: "https://smumods.com/professor/lee-yeow-leong/",
             location: "SIS SR B1-1",
@@ -22,6 +24,7 @@ const modules = [
           {
             id: 2,
             day: 3, // 0 to 6 (Mon - 0 to Sunday - 6)
+            type: "sem",
             instructor: "Yeow Leong",
             instructor_url: "https://smumods.com/professor/lee-yeow-leong/",
             location: "SIS SR B1-1",
