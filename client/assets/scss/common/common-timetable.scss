@@ -1,0 +1,32 @@
+$sizeOfLabel: 30px;
+
+.common-timetable{
+  width: 100%;
+  .common-timetable-time{
+    font-size: 0.8em;
+    margin-left: $sizeOfLabel;
+    display: flex;
+    justify-content: space-around;
+    div {
+      width: 100%;
+    }
+  }
+  .common-timetable-day{
+    border: 1px solid black;
+    height: fit-content;
+    min-height: 3em;
+    display: flex;
+    overflow: hidden;
+    .common-timetable-day-label{
+      width: $sizeOfLabel;
+      border: 1px solid pink;
+      /* centering */
+      text-align: center;
+      align-self: center;
+    }
+    .common-timetable-day-line{
+      width: 100%;
+      border: 1px solid pink;
+    }
+  }
+}
