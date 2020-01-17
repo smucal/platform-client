@@ -7,9 +7,16 @@ const initialState = {
   sid: null, // Session ID - only when loggedin
   modules: [
     {
+      index: 'COR 3001',
+      sem: '2019:1',
+      time_id: 0,
+      grade: null,
+      bid: 0,
+    },
+    {
       index: 'CS 101',
       sem: '2019:1',
-      time_id: 1, // 0-indexed position of time object in array
+      time_id: 0, // 0-indexed position of time object in array
       // time_index returns null if it is planned only for course planning (random number will be assigned when selected)
       // deselection of course with time_index will come with a pop-up that it will be erased from calendar as well
       grade: null, //  default null - grade 1 for A+ to 12 for F (follow table below)

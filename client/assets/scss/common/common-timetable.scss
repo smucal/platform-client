@@ -27,6 +27,18 @@ $sizeOfLabel: 30px;
     .common-timetable-day-line{
       width: 100%;
       border: 1px solid pink;
+      .common-timetable-day-line-clas{
+        border: 1px solid black;
+        
+        &.t-google-0 { background: blanchedalmond; }
+        &.t-google-1 { background: green; }
+        &.t-google-2 { background: blue; }
+        &.t-google-3 { background: blueviolet; }
+        &.t-google-4 { background: burlywood; }
+        &.t-google-5 { background: yellowgreen; }
+        &.t-google-6 { background: yellow; }
+        &.t-google-7 { background: plum; }
+      }
     }
   }
 }
