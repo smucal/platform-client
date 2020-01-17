@@ -9,6 +9,7 @@ $sizeOfLabel: 30px;
     justify-content: space-around;
     div {
       width: 100%;
+      border-left: 1px solid black;
     }
   }
   .common-timetable-day{
@@ -27,9 +28,10 @@ $sizeOfLabel: 30px;
     .common-timetable-day-line{
       width: 100%;
       border: 1px solid pink;
+      display: flex;
       .common-timetable-day-line-clas{
         border: 1px solid black;
-        
+
         &.t-google-0 { background: blanchedalmond; }
         &.t-google-1 { background: green; }
         &.t-google-2 { background: blue; }

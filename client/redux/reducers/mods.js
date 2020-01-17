@@ -17,8 +17,8 @@ const initialState = {
               instructor: 'Yeow Leong',
               instructor_url: 'https://smumods.com/professor/lee-yeow-leong/',
               location: 'SIS SR B1-1',
-              from: '09:30', // hour:min
-              to: '10:30', // bigger than 'from'
+              from: '10:30', // hour:min
+              to: '13:30', // bigger than 'from'
             },
             {
               id: 1,
