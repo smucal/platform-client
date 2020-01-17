@@ -11,7 +11,7 @@ const startTime = '08:00';
 
 const Timetable = (props) => {
   const [list, setList] = useState([]);
-  useEffect(() => buildMod(), [props.user]); // eslint-disable-line no-use-before-define
+  useEffect(() => { buildMod() }, [props.user]); // eslint-disable-line no-use-before-define
 
   // SET STATE
   const buildMod = async () => {
