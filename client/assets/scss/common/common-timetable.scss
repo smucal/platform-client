@@ -1,0 +1,44 @@
+$sizeOfLabel: 30px;
+
+.common-timetable{
+  width: 100%;
+  .common-timetable-time{
+    font-size: 0.8em;
+    margin-left: $sizeOfLabel;
+    display: flex;
+    justify-content: space-around;
+    div {
+      width: 100%;
+    }
+  }
+  .common-timetable-day{
+    border: 1px solid black;
+    height: fit-content;
+    min-height: 3em;
+    display: flex;
+    overflow: hidden;
+    .common-timetable-day-label{
+      width: $sizeOfLabel;
+      border: 1px solid pink;
+      /* centering */
+      text-align: center;
+      align-self: center;
+    }
+    .common-timetable-day-line{
+      width: 100%;
+      border: 1px solid pink;
+      .common-timetable-day-line-clas{
+        border: 1px solid black;
+        
+        &.t-google-0 { background: blanchedalmond; }
+        &.t-google-1 { background: green; }
+        &.t-google-2 { background: blue; }
+        &.t-google-3 { background: blueviolet; }
+        &.t-google-4 { background: burlywood; }
+        &.t-google-5 { background: yellowgreen; }
+        &.t-google-6 { background: yellow; }
+        &.t-google-7 { background: plum; }
+      }
+    }
+  }
+}

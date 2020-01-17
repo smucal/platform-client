@@ -1,17 +1,13 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom' // react-router v4/v5
 
-const Landing = () => {
-  return (
-    <div>Hello World</div>
-  )
-}
+import Timetable from './Timetable'
 
 const Main = () => {
   return (
     <>
       <Switch>
-        <Route exact path="/" component={Landing} />
+        <Route exact path="/" component={Timetable} />
       </Switch>
     </>
   )
